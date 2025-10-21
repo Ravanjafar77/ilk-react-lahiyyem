@@ -1,0 +1,182 @@
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.nav-bar{
+    display: flex;
+}
+
+.doctorabout {
+    background-color: rgba(234, 255, 240, 1);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.oxcare a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #359260;
+    font-size: 30px; /* düzəldildi */
+    line-height: 100%;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px; 
+    font-weight: 500; 
+    color: #4B5563;  
+    margin-left: 28px;
+    transition: color 0.3s;
+}
+
+.nav-bar a:hover{
+    color: rgba(45, 207, 87, 1);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background-color: rgba(234, 255, 240, 1);
+  
+}
+
+.ls-button {
+    display: flex;
+   
+    gap: 20px; /* düzəldildi */
+    margin: 0;
+}
+
+.ls-button .login-btn,
+.ls-button .signup-btn {
+    border: none;
+    background: none;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease; /* düzəldildi */
+    
+   
+}
+
+.login-btn {
+    padding: 8px 16px; /* əlavə edildi */
+    border-radius: 5px;
+    
+}
+
+.login-btn:hover{
+    background-color: rgba(45, 207, 87, 1);
+    color: white;
+    transform: scale(1.1); /* 1.5 çox böyükdür */
+}
+
+.signup-btn {
+    padding: 8px 16px; /* əlavə edildi */
+    border-radius: 5px;
+}
+
+.signup-btn:hover{
+    background-color: rgba(45, 207, 87, 1);
+    color: white;
+    transform: scale(1.1); /* düzəldildi */
+}
+
+.doctorabout {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 120px 70px 0 60px;
+    gap: 60px;
+    background-color: rgba(234, 255, 240, 1);
+}
+
+.doctorphoto {
+    width: 300px;
+    max-width: 500px;
+    display: block;
+}
+
+.doctortext {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .doctorabout {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .doctorphoto {
+        order: -1;
+    }
+}
+.Get-appointment{
+  padding: 5px;
+  margin: 10px;
+  background: none;
+  font-weight: 700;
+  transition: 0.3s;
+  border-radius:5px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Find-Specialist{
+ padding: 5px;
+  margin: 10px;
+  background: none;
+  font-weight: 700;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Get-appointment:hover{
+  background-color:#5EEB83;
+  color: white;
+  border: none;
+  transform: scale(1.1);
+
+}
+.Find-Specialist:hover{
+  background-color:#5EEB83;
+  color: white;
+  border: none;
+  transform: scale(1.1);
+}

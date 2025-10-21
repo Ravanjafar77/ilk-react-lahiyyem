@@ -1,0 +1,450 @@
+.Services {
+  text-align: center;
+  padding: 60px 20px 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Our-services {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  font-family: "Anek Telugu";
+}
+
+.our-paragraf {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666666;
+  margin: 0;
+  font-family: "Anek Telugu";
+}
+
+.all-services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+
+.Counseling,
+.Support-groups,
+.Prescription-medicine,
+.Therapies,
+.Brain-stimulation,
+.Eye-Movement {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  padding: 20px 10px;
+  text-align: left;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin: 0 20px;
+}
+
+.Counseling:hover,
+.Support-groups:hover,
+.Prescription-medicine:hover,
+.Therapies:hover,
+.Brain-stimulation:hover,
+.Eye-Movement:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.Group-photo,
+.sheild-photo,
+.Pills-photo,
+.Counseling img,
+.Support-groups img,
+.Prescription-medicine img,
+.Therapies img,
+.Brain-stimulation img,
+.Eye-Movement img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 24px;
+}
+
+.Counseling2,
+.Support-groups2,
+.medicine,
+.Therapies2,
+.Brain,
+.eyes2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(45, 207, 87, 1);
+  margin-bottom: 16px;
+  font-family: "Anek Telugu";
+}
+
+.Counseling-paragraf,
+.Support-paragraf,
+.medicine-paragraf,
+.therapies-paragraf,
+.Brain-paragraf,
+.Eyes-paragraf {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666666;
+  margin: 0;
+  font-family: "Anek Telugu";
+}
+.rectangle-container {
+  margin: 50px;
+  align-items: center;
+  text-align: center;
+  height: 250;
+  width: 250;
+}
+
+.rectangle {
+  padding: 80px;
+  border-radius: 30px;
+  background-color: rgba(45, 207, 87, 1);
+}
+.rectangle-paragraf {
+  color: rgba(228, 244, 232, 1);
+  margin-bottom: 20px;
+  font-family: "Anek Telugu";
+}
+.rectangle-h4 {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Anek Telugu";
+  font-size: 48px;
+  font-weight: 600;
+}
+.rectangle-button {
+  background-color: rgba(0, 0, 0, 1);
+  color: #ffffff;
+  padding: 5px;
+  width: 130px;
+  border: none;
+  border-radius: 5px;
+}
+
+.testimonialtext1 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.texth2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+}
+
+.textp1 {
+  font-size: 15px;
+  color: #666;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.Testimonial {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.tetsmonial-block {
+  width: 700px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 25px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  position: relative;
+}
+
+.ellipse {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.ellipsename {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin-left: 10px;
+  position: relative;
+  top: -20px;
+}
+
+.eliipse-date {
+  color: #888;
+  font-size: 13px;
+  margin-left: 80px;
+  position: relative;
+  top: -20px;
+}
+
+.eliipse-paragraf {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.stars {
+  color: #ffcc00;
+  font-size: 18px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+.left-arrow,
+.right-arrow {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: absolute;
+  top: 480%;
+}
+
+.left-arrow {
+  left: 90px;
+}
+
+.right-arrow {
+  right: 90px;
+}
+
+.left,
+.right {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.take-text {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.takeh2 {
+  font-family: "Anek Telugu";
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+}
+.takep {
+  font-family: "Anek Telugu";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+.feature-contanier {
+  padding-top: 20px;
+  padding-left: 30px;
+  margin: 20px;
+}
+.feature {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: rgba(45, 207, 87, 1);
+  display: flex;
+  align-items: center;
+  border-left: 3px solid rgba(0, 0, 0, 1);
+  padding-left: 10px;
+  font-family: "Anek Telugu";
+  letter-spacing: 2%;
+  line-height: 100%;
+}
+.take-about {
+  display: flex;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: 60px;
+  font-family: "Anek Telugu";
+  font-size: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  color: rgba(90, 90, 90, 1);
+}
+.take-photo {
+  width: 300px;
+  height: 300px;
+  margin: 35px;
+}
+
+.chekbox {
+  font-size: 0.7em;
+  margin-right: 8px;
+  margin: 10px;
+}
+
+.callback-section {
+    padding: 80px 20px;
+    background: transparent;
+}
+
+.callback-container {
+    background: #000;
+    border-radius: 20px;
+    padding: 50px;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.box-input {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box-about {
+    color: white;
+}
+
+.need-doctor {
+    font-size: 14px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    color: white;
+}
+
+.callback-title {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.need-doctor2 {
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.7;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.photo-paragraf {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    position: relative;
+}
+
+.photos {
+ width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid #000;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.photos:first-child {
+    margin-left: 0;
+}
+
+.photo-about {
+    font-size: 14px;
+    line-height: 1.4;
+    color: white;
+    margin-left: 10px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    background: white;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.form-section input:focus {
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.3);
+}
+
+.form-section input::placeholder {
+    color: #999;
+}
+
+.submit-btn {
+    background: #00d084;
+    color: white;
+    border: none;
+    padding: 18px 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+
+.submit-btn:hover {
+    background: #00b872;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 208, 132, 0.3);
+}
+
+.submit-btn:active {
+    transform: translateY(0);
+}
+@media (min-width: 1200px) {
+    .photos {
+        width: 100px;
+        height: 100px;
+        border: 5px solid #000;
+    }
+    
+    .photos:nth-child(2) {
+        margin-left: -30px;
+    }
+    
+    .photos:nth-child(3) {
+        margin-left: -30px;
+    }
+}
+
+
+
+

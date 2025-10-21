@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.cards1{
+    margin-top: 40px;
+    padding: 30px 30px ;
+    background-color:rgba(45, 207, 87, 1) ;
+    border-radius: 10px;
+}
+.clock{
+    font-weight: 800;
+    font-size: 4rem;
+    text-align: center;
+   font-family: 'Inter', sans-serif;
+    color: #ffff;
+}
+.Online{
+     font-family: 'Inter', sans-serif;
+  font-size: 0.95rem; 
+  font-weight: 400;
+  color: #FFFFFF;
+  opacity: 0.85;
+  line-height: 1.4;
+  text-align: center;
+}
+.cards2{
+      margin-top: 40px;
+    padding: 30px ;
+    background-color:rgba(36, 36, 36, 1) ;
+    border-radius: 10px;
+
+}
+.cards100{
+    font-weight: 800;
+    font-size: 4rem;
+    text-align: center;
+   font-family: 'Inter', sans-serif;
+    color: #ffff;
+
+}
+.Doctors{
+     font-family: 'Inter', sans-serif;
+  font-size: 0.95rem; 
+  font-weight: 400;
+  color: #FFFFFF;
+  opacity: 0.85;
+  line-height: 1.4;
+  text-align: center;
+
+}
+.cards3{
+      margin-top: 40px;
+    padding: 40px ;
+    background-color:rgba(45, 207, 87, 1);
+    border-radius: 10px;
+
+}
+.cards1M{
+    font-weight: 800;
+    font-size: 4rem;
+    text-align: center;
+   font-family: 'Inter', sans-serif;
+    color: #ffff;
+}
+.active{
+      font-family: 'Inter', sans-serif;
+  font-size: 0.95rem; 
+  font-weight: 400;
+  color: #FFFFFF;
+  opacity: 0.85;
+  line-height: 1.4;
+  text-align: center;
+
+    
+}
+.cards4{
+        margin-top: 40px;
+    padding: 30px ;
+    background-color:rgba(36, 36, 36, 1) ;
+    border-radius: 10px;
+}
+.cards5M{
+    font-weight: 800;
+    font-size: 4rem;
+    text-align: center;
+   font-family: 'Inter', sans-serif;
+    color: #ffff;
+}
+.interested{
+       font-family: 'Inter', sans-serif;
+  font-size: 0.95rem; 
+  font-weight: 400;
+  color: #FFFFFF;
+  opacity: 0.85;
+  line-height: 1.4;
+  text-align: center;
+
+}
+.services{
+    margin-top: 50px;
+    align-items: center;
+}
