@@ -1,107 +1,159 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.cards{
-    display: flex;
-    justify-content: space-around;
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 20px;
 }
-.cards1{
+
+.cards1,
+.cards2,
+.cards3,
+.cards4 {
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.cards1,
+.cards3 {
+  background-color: rgba(45, 207, 87, 1);
+}
+
+.cards2,
+.cards4 {
+  background-color: rgba(36, 36, 36, 1);
+}
+
+.clock,
+.cards100,
+.cards1M,
+.cards5M {
+  font-weight: 800;
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+}
+
+.Online,
+.Doctors,
+.active,
+.interested {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.85;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.services {
+  margin-top: 50px;
+  align-items: center;
+}
+
+
+@media (max-width: 480px) {
+  .cards {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 15px;
+  }
+
+  .cards1,
+  .cards2,
+  .cards3,
+  .cards4 {
+    margin-top: 20px;
+    padding: 25px 20px;
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .clock,
+  .cards100,
+  .cards1M,
+  .cards5M {
+    font-size: 2.5rem;
+  }
+
+  .Online,
+  .Doctors,
+  .active,
+  .interested {
+    font-size: 0.85rem;
+  }
+
+  .services {
+    margin-top: 30px;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .cards1,
+  .cards2,
+  .cards3,
+  .cards4 {
+    margin-top: 25px;
+    padding: 28px 25px;
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .clock,
+  .cards100,
+  .cards1M,
+  .cards5M {
+    font-size: 3.5rem;
+  }
+
+  .Online,
+  .Doctors,
+  .active,
+  .interested {
+    font-size: 0.9rem;
+  }
+
+  .services {
     margin-top: 40px;
-    padding: 30px 30px ;
-    background-color:rgba(45, 207, 87, 1) ;
-    border-radius: 10px;
+  }
 }
-.clock{
-    font-weight: 800;
-    font-size: 4rem;
-    text-align: center;
-   font-family: 'Inter', sans-serif;
-    color: #ffff;
-}
-.Online{
-     font-family: 'Inter', sans-serif;
-  font-size: 0.95rem; 
-  font-weight: 400;
-  color: #FFFFFF;
-  opacity: 0.85;
-  line-height: 1.4;
-  text-align: center;
-}
-.cards2{
-      margin-top: 40px;
-    padding: 30px ;
-    background-color:rgba(36, 36, 36, 1) ;
-    border-radius: 10px;
 
-}
-.cards100{
-    font-weight: 800;
-    font-size: 4rem;
-    text-align: center;
-   font-family: 'Inter', sans-serif;
-    color: #ffff;
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cards {
+    gap: 20px;
+    padding: 0 30px;
+  }
 
-}
-.Doctors{
-     font-family: 'Inter', sans-serif;
-  font-size: 0.95rem; 
-  font-weight: 400;
-  color: #FFFFFF;
-  opacity: 0.85;
-  line-height: 1.4;
-  text-align: center;
+  .cards1,
+  .cards2,
+  .cards3,
+  .cards4 {
+    padding: 28px;
+    min-width: 180px;
+  }
 
-}
-.cards3{
-      margin-top: 40px;
-    padding: 40px ;
-    background-color:rgba(45, 207, 87, 1);
-    border-radius: 10px;
-
-}
-.cards1M{
-    font-weight: 800;
-    font-size: 4rem;
-    text-align: center;
-   font-family: 'Inter', sans-serif;
-    color: #ffff;
-}
-.active{
-      font-family: 'Inter', sans-serif;
-  font-size: 0.95rem; 
-  font-weight: 400;
-  color: #FFFFFF;
-  opacity: 0.85;
-  line-height: 1.4;
-  text-align: center;
-
-    
-}
-.cards4{
-        margin-top: 40px;
-    padding: 30px ;
-    background-color:rgba(36, 36, 36, 1) ;
-    border-radius: 10px;
-}
-.cards5M{
-    font-weight: 800;
-    font-size: 4rem;
-    text-align: center;
-   font-family: 'Inter', sans-serif;
-    color: #ffff;
-}
-.interested{
-       font-family: 'Inter', sans-serif;
-  font-size: 0.95rem; 
-  font-weight: 400;
-  color: #FFFFFF;
-  opacity: 0.85;
-  line-height: 1.4;
-  text-align: center;
-
-}
-.services{
-    margin-top: 50px;
-    align-items: center;
+  .clock,
+  .cards100,
+  .cards1M,
+  .cards5M {
+    font-size: 3.5rem;
+  }
 }

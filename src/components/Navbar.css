@@ -1,165 +1,154 @@
-*{
-   margin: 0;
-   padding: 0;
-   list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-.nav-bar{
-    display: flex;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  margin-right: 20px;
 }
 
 .doctorabout {
-    background-color: rgba(234, 255, 240, 1);
-    margin-top: 0;
-    padding-top: 0;
+  background-color: rgba(234, 255, 240, 1);
+  margin-top: 0;
+  padding-top: 0;
+  width: 100%;
 }
 
 .nav-bar ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
 }
 
-.oxcare a{
-    text-decoration: none;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    color: #359260;
-    font-size: 30px; /* düzəldildi */
-    line-height: 100%;
+.oxcare a {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #359260;
+  font-size: 30px;
+  line-height: 100%;
 }
 
-.nav-bar a{
-    text-decoration: none;
-    font-family: 'Inter', sans-serif;
-    font-size: 17px; 
-    font-weight: 500; 
-    color: #4B5563;  
-    margin-left: 28px;
-    transition: color 0.3s;
+.nav-bar a {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #4B5563;
+  margin-left: 20px;
+  transition: color 0.3s;
 }
 
-.nav-bar a:hover{
-    color: rgba(45, 207, 87, 1);
+.nav-bar a:hover {
+  color: rgba(45, 207, 87, 1);
 }
 
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 60px;
-    background-color: rgba(234, 255, 240, 1);
-  
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background-color: rgba(234, 255, 240, 1);
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1000;
 }
 
 .ls-button {
-    display: flex;
-   
-    gap: 20px; /* düzəldildi */
-    margin: 0;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  margin-left: 10px;
 }
 
 .ls-button .login-btn,
 .ls-button .signup-btn {
-    border: none;
-    background: none;
-    font-size: 15px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all 0.3s ease; /* düzəldildi */
-    
-   
+  border: none;
+  background: none;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
-.login-btn {
-    padding: 8px 16px; /* əlavə edildi */
-    border-radius: 5px;
-    
+.login-btn:hover {
+  background-color: rgba(45, 207, 87, 1);
+  color: white;
+  transform: scale(1.0);
+  border-radius: 5px;
+  padding: 5px;
 }
 
-.login-btn:hover{
-    background-color: rgba(45, 207, 87, 1);
-    color: white;
-    transform: scale(1.1); /* 1.5 çox böyükdür */
-}
-
-.signup-btn {
-    padding: 8px 16px; /* əlavə edildi */
-    border-radius: 5px;
-}
-
-.signup-btn:hover{
-    background-color: rgba(45, 207, 87, 1);
-    color: white;
-    transform: scale(1.1); /* düzəldildi */
+.signup-btn:hover {
+  background-color: rgba(45, 207, 87, 1);
+  color: white;
+  transform: scale(1.0);
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .doctorabout {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
-    justify-content: space-between;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 120px 70px 0 60px;
-    gap: 60px;
-    background-color: rgba(234, 255, 240, 1);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0;
+  padding: 120px 60px 60px 60px;
+  gap: 60px;
+  background-color: rgba(234, 255, 240, 1);
 }
 
 .doctorphoto {
-    width: 300px;
-    max-width: 500px;
-    display: block;
+  width: 300px;
+  max-width: 500px;
+  display: block;
 }
 
 .doctortext {
-    flex: 1;
-    max-width: 600px;
+  flex: 1;
+  max-width: 600px;
 }
 
 .hero-title {
-    font-size: 3.5rem;
-    line-height: 1.2;
-    margin-bottom: 30px;
-    color: #1a1a1a;
-    font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+  font-weight: 700;
 }
 
 .hero-subtitle {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #555;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
 }
 
-@media (max-width: 768px) {
-    .doctorabout {
-        flex-direction: column;
-        text-align: center;
-        padding: 40px 20px;
-    }
-
-    .hero-title {
-        font-size: 2.5rem;
-    }
-
-    .doctorphoto {
-        order: -1;
-    }
-}
-.Get-appointment{
+.Get-appointment {
   padding: 5px;
   margin: 10px;
   background: none;
   font-weight: 700;
   transition: 0.3s;
-  border-radius:5px ;
+  border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.Find-Specialist{
- padding: 5px;
+
+.Find-Specialist {
+  padding: 5px;
   margin: 10px;
   background: none;
   font-weight: 700;
@@ -167,16 +156,160 @@
   transition: 0.3s;
   font-family: Arial, Helvetica, sans-serif;
 }
-.Get-appointment:hover{
-  background-color:#5EEB83;
-  color: white;
-  border: none;
-  transform: scale(1.1);
 
-}
-.Find-Specialist:hover{
-  background-color:#5EEB83;
+.Get-appointment:hover {
+  background-color: #5EEB83;
   color: white;
   border: none;
   transform: scale(1.1);
+}
+
+.Find-Specialist:hover {
+  background-color: #5EEB83;
+  color: white;
+  border: none;
+  transform: scale(1.1);
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 15px 15px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .oxcare a {
+    font-size: 22px;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .nav-bar ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-bar a {
+    margin-left: 0;
+    font-size: 15px;
+  }
+
+  .ls-button {
+    gap: 10px;
+    margin-left: 0;
+  }
+
+  .ls-button .login-btn,
+  .ls-button .signup-btn {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .doctorabout {
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 15px 40px 15px;
+    gap: 30px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .doctorphoto {
+    width: 100%;
+    max-width: 100%;
+    order: -1;
+  }
+
+  .doctortext {
+    max-width: 100%;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .Get-appointment,
+  .Find-Specialist {
+    padding: 10px 15px;
+    margin: 8px 5px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    padding: 15px 20px;
+    width: 100%;
+  }
+
+  .oxcare a {
+    font-size: 26px;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .nav-bar ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-bar a {
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  .ls-button {
+    gap: 15px;
+  }
+
+  .ls-button .login-btn,
+  .ls-button .signup-btn {
+    font-size: 14px;
+  }
+
+  .doctorabout {
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 20px 50px 20px;
+    gap: 40px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .doctorphoto {
+    width: 100%;
+    max-width: 400px;
+    order: -1;
+    margin: 0 auto;
+  }
+
+  .doctortext {
+    max-width: 100%;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .Get-appointment,
+  .Find-Specialist {
+    padding: 8px 18px;
+    margin: 10px 8px;
+    font-size: 15px;
+  }
 }

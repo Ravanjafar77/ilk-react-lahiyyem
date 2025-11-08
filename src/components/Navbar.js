@@ -1,5 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, BrowserRouter, Link } from 'react-router-dom'
 import './Navbar.css';
+import HeroSection from './HeroSection';
+import Elements from './Elements';
+import Footer from './Footer';
 
 function Navbar() {
   return (
@@ -21,8 +24,11 @@ function Navbar() {
           <li><Link to="/contact">Contact</Link></li>      
         </ul>
         <div className='ls-button'>
-          <button className="login-btn">Login</button>
-        <button className="signup-btn">Signup</button>
+          <ul>
+              <li><Link to="/login" className='login-btn'>Login</Link></li> 
+                <li><Link to="/signup" className='signup-btn'>Signup</Link></li> 
+          </ul>
+       
         </div>
       </nav>
       
@@ -47,8 +53,12 @@ function Navbar() {
       <button className='Find-Specialist'>Find Specialist</button>
   </div>
 </div>
+<HeroSection/>
 
+<Elements/>
+<Footer/>
          </>
+         
     
   )
 }

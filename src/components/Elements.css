@@ -429,22 +429,292 @@
 .submit-btn:active {
     transform: translateY(0);
 }
-@media (min-width: 1200px) {
-    .photos {
-        width: 100px;
-        height: 100px;
-        border: 5px solid #000;
-    }
-    
-    .photos:nth-child(2) {
-        margin-left: -30px;
-    }
-    
-    .photos:nth-child(3) {
-        margin-left: -30px;
-    }
+
+@media (max-width: 480px) {
+  .Services {
+    padding: 30px 15px 20px;
+  }
+
+  .Our-services {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  .our-paragraf {
+    font-size: 14px;
+  }
+
+  .all-services {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 30px 15px 50px;
+  }
+
+  .Counseling,
+  .Support-groups,
+  .Prescription-medicine,
+  .Therapies,
+  .Brain-stimulation,
+  .Eye-Movement {
+    margin: 0;
+    padding: 20px 15px;
+  }
+
+  .Group-photo,
+  .sheild-photo,
+  .Pills-photo,
+  .Counseling img,
+  .Support-groups img,
+  .Prescription-medicine img,
+  .Therapies img,
+  .Brain-stimulation img,
+  .Eye-Movement img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 16px;
+  }
+
+  .Counseling2,
+  .Support-groups2,
+  .medicine,
+  .Therapies2,
+  .Brain,
+  .eyes2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .Counseling-paragraf,
+  .Support-paragraf,
+  .medicine-paragraf,
+  .therapies-paragraf,
+  .Brain-paragraf,
+  .Eyes-paragraf {
+    font-size: 14px;
+  }
+
+  .rectangle-container {
+    margin: 20px 15px;
+  }
+
+  .rectangle {
+    padding: 40px 20px;
+    border-radius: 20px;
+  }
+
+  .rectangle-h4 {
+    font-size: 32px;
+  }
+
+  .rectangle-paragraf {
+    font-size: 14px;
+  }
+
+  .rectangle-button {
+    width: 110px;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .testimonialtext1 {
+    margin-top: 40px;
+    padding: 0 15px;
+  }
+
+  .texth2 {
+    font-size: 24px;
+  }
+
+  .textp1 {
+    font-size: 14px;
+  }
+
+  .Testimonial {
+    margin-top: 30px;
+    padding: 0 15px;
+  }
+
+  .tetsmonial-block {
+    width: 100%;
+    padding: 20px 15px;
+  }
+
+  .ellipse {
+    width: 50px;
+    height: 50px;
+  }
+
+  .ellipsename {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+
+  .eliipse-date {
+    font-size: 12px;
+    margin-left: 60px;
+  }
+
+  .eliipse-paragraf {
+    font-size: 14px;
+  }
+
+  .stars {
+    font-size: 16px;
+    right: 15px;
+    top: 20px;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    display: none;
+  }
+
+  .take-text {
+    margin: 30px 15px;
+  }
+
+  .takeh2 {
+    font-size: 26px;
+  }
+
+  .takep {
+    font-size: 14px;
+  }
+
+  .take-about {
+    flex-direction: column;
+    margin: 30px 15px;
+    padding: 0;
+  }
+
+  .take-photo {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    margin: 0 0 20px 0;
+  }
+
+  .feature-contanier {
+    padding: 10px 15px;
+    margin: 10px;
+  }
+
+  .feature {
+    font-size: 18px;
+  }
+
+  .callback-section {
+    padding: 40px 15px;
+  }
+
+  .callback-container {
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+    gap: 30px;
+    border-radius: 15px;
+  }
+
+  .callback-title {
+    font-size: 28px;
+  }
+
+  .need-doctor,
+  .need-doctor2 {
+    font-size: 13px;
+  }
+
+  .photos {
+    width: 60px;
+    height: 60px;
+    border: 3px solid #000;
+  }
+
+  .photos:nth-child(2),
+  .photos:nth-child(3) {
+    margin-left: -15px;
+  }
+
+  .photo-about {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  .form-section input {
+    padding: 14px 16px;
+    font-size: 14px;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 15px;
+  }
 }
 
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .Services {
+    padding: 40px 20px 25px;
+  }
+
+  .Our-services {
+    font-size: 36px;
+  }
+
+  .all-services {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 35px 20px 60px;
+  }
+
+  .Counseling,
+  .Support-groups,
+  .Prescription-medicine,
+  .Therapies,
+  .Brain-stimulation,
+  .Eye-Movement {
+    margin: 0;
+  }
+
+  .rectangle-container {
+    margin: 40px 20px;
+  }
+
+  .rectangle {
+    padding: 60px 30px;
+  }
+
+  .rectangle-h4 {
+    font-size: 40px;
+  }
+
+  .take-about {
+    flex-direction: column;
+    margin: 40px 20px;
+  }
+
+  .take-photo {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    margin: 0 0 25px 0;
+  }
+
+  .callback-container {
+    grid-template-columns: 1fr;
+    padding: 40px 30px;
+    gap: 40px;
+  }
+
+  .callback-title {
+    font-size: 36px;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    display: none;
+  }
+}
 
 
 

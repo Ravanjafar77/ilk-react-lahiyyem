@@ -1,24 +1,25 @@
-// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, BrowserRouter, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Elements from './components/Elements';
-import HeroSection from './components/HeroSection'; 
-import Footer from './components/Footer'; 
-
-import './App.css';
-
-
+import Services from './components/Services';
+import Login from './components/Login';
+import Signup from './components/Singup';
+import HeroSection from './components/HeroSection'; // və ya əsas səhifəniz
 
 function App() {
   return (
-    <div>
-      <Navbar/>
-     <HeroSection/>
-     <Elements/>
-     <Footer/>
-    </div>
-)
+    <Router>
+    
+      
+      <Routes>
+
+           <Route path="/" element={<Navbar />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
