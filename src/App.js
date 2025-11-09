@@ -1,10 +1,10 @@
-import React from 'react';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
 import Login from './components/Login';
 import Signup from './components/Singup';
-import HeroSection from './components/HeroSection'; // və ya əsas səhifəniz
+
 
 function App() {
   return (
