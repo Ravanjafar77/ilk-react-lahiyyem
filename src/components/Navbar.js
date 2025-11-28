@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, BrowserRouter, Link } from 'react-router-dom'
+import { BrowserRouter,Link } from 'react-router-dom'
 import './Navbar.css';
 import HeroSection from './HeroSection';
 import Elements from './Elements';

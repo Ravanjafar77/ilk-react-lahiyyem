@@ -1,12 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  BrowserRouter,
-  Link,
-} from "react-router-dom";
-import "./Elements.css";
-
+import React from "react";
 function Elements() {
   return (
     <>
@@ -130,10 +122,10 @@ function Elements() {
         </div>
       </div>
       <div className="left-arrow">
-        <img src="arrow-left.png " className="left"></img>
+        <img src="arrow-left.png " className="left" alt="arrow"></img>
       </div>
       <div className="right-arrow">
-        <img src="arrow-right.png" className="right"></img>
+        <img src="arrow-right.png" className="right" alt="arrow"></img>
       </div>
 
       <div className="take-our-services-container">
@@ -146,7 +138,7 @@ function Elements() {
           </p>
         </div>
         <div className="take-about">
-          <img src="group8.png" className="take-photo"></img>
+          <img src="group8.png" className="take-photo" alt="take-photo"></img>
           <div className="feature-contanier">
             <h3 className="feature">
               Experience
@@ -212,9 +204,9 @@ function Elements() {
         </p>
       </div>
       <div className="photo-paragraf">
-        <img src="Ellipse6photo.png" className="photos" alt="Doctor 1" />
-        <img src="Ellipse7photo.png" className="photos" alt="Doctor 2" />
-        <img src="Ellipse8photo.png" className="photos" alt="Doctor 3" />
+        <img src="Ellipse6photo.png" className="photos" alt="Doctor-1" />
+        <img src="Ellipse7photo.png" className="photos" alt="Doctor-2" />
+        <img src="Ellipse8photo.png" className="photos" alt="Doctor-3" />
         <p className="photo-about">
           Our Doctors are waiting<br/>
           for your service.
